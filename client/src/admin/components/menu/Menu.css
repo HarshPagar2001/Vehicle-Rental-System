@@ -1,0 +1,60 @@
+.Menu{
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.MenuContainer{
+    position: fixed;
+    height: 100vh;
+    width: 220px;
+    border: 2px solid black;
+    left: 0;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.MenuHeader{
+    background: #0096FF;
+    color: white;
+    height: 104px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.MenuHeaderLogo{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.MenuList{
+    margin-top: 68px;
+}
+
+.MenuTitle span{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #0096FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.MenuList a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.MenuTitle span a{
+    color: white;
+}

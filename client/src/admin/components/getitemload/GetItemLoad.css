@@ -1,0 +1,48 @@
+.ItemLoad{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.ItemLoadData{
+    padding: 25px;
+}
+
+.GetItemPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemPhoto{
+    background: #d9d9d9;
+    height: 80px;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.GetItemLoadDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GetItemDetail{
+    background: #d9d9d9;
+    height: 80px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.GetItemButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.ItemButton{
+    background: #d9d9d9;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}

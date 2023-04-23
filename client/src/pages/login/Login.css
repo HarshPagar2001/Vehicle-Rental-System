@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Main h2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.MainContainer{
+    position: absolute;
+    width: 450px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.InputBox{
+    position: relative;
+    height: 60px;
+    margin: 25px 0;
+}
+
+.InputBox input{
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.InputBox input:focus{
+    border-color: #0096FF;
+}
+
+.InputBox input:focus ~ label{
+    color: #0096FF;
+}
+
+.InputBox label, .InputBox i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.InputBox label{
+    left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.InputBox input:focus ~ label,
+.InputBox input:valid ~ label{
+    top: 0;
+    font-size: 15px;
+    background: white;
+}
+
+.InputBox i{
+    right: 15px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.InputBox span{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translateY(-50%);
+}
+
+.ButtonContainer{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.Button{
+    background: #0096FF;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Message{
+    background: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.Link{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Link span a{
+    color: #0096FF;
+    text-decoration: none;
+}

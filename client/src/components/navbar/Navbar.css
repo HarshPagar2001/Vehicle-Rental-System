@@ -1,0 +1,170 @@
+.Nav{
+    background: #0096FF;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.Nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.Nav ul li{
+    list-style: none;
+}
+
+.Nav ul li{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.NavContainer{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    top: 0;
+}
+
+.NavItem{
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavItem h4{
+    color: white;
+    font-size: 2rem;
+}
+
+.NavMenu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.Profile{
+    position: absolute;
+    background: white;
+    top: 90px;
+    right: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.ProfileContainer{
+    margin-bottom: 20px;
+    background: #0096FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.User{
+    background: #0096FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.UserNavPhoto img{
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.UserMenu{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.UsernameContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Setting{
+    background: #0096FF;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.AdminLogin{
+    background: #0096FF;
+    color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Logout{
+    background: #0096FF;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.SignUpButton a{
+    background: #0096FF;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.Sun{
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Moon{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}

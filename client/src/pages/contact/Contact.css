@@ -1,0 +1,70 @@
+.Contact{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.ContactContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+    gap: 20px;
+}
+
+.ContactItemContainer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    padding: 60px;
+}
+
+.ContactItem{
+    display: flex;
+}
+
+.ContactItemLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactItemRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactInput{
+    margin: 20px;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+    padding: 20px;
+}
+
+textarea{
+    margin: 20px;
+    min-height: 80px;
+    resize: none;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px;
+}
+
+.ContactButton{
+    margin: 20px;
+    width: 140px;
+    background: #0096FF;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+}

@@ -1,0 +1,65 @@
+.Redirect{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.RedirectContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.RedirectDetail{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    padding: 80px;
+    gap: 40px;
+}
+
+.RedirectDetail label{
+    font-size: 20px;
+}
+
+.RedirectDetail input{
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+.RedirectDetail input:focus{
+    border-color: #0171d3;
+}
+
+.RedirectButton a{
+    color: white;
+    text-decoration: none;
+}
+
+.RedirectButton{
+    background: #0096FF;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 20px;
+    cursor: pointer;
+}

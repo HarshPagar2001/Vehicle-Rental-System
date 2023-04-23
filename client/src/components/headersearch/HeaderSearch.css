@@ -1,0 +1,125 @@
+.HeaderSearch{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)), url(/Images/2112.w015.n001.620B.p15.620.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.HomeTitle{
+    position: absolute;
+    width: 90%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeTitle span{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.HomeTitle p{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.HeaderSearchContainer{
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderSearchItemContainer{
+    height: 90px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Label{
+    margin: 20px;
+    font-weight: 800;
+}
+
+.HeaderSearchComponent{
+    margin-top: 10px;
+}
+
+.HeaderSearchInput{
+    margin: 10px;
+}
+
+.SelectDate{
+    margin: 40px;
+}
+
+.DateRange{
+    position: absolute;
+    bottom: 120px;
+    left: 800px;
+    border: 2px solid black;
+}
+
+.HeaderSearchInput{
+    margin-left: 20px;
+    height: 20px;
+    width: 280px;
+    border: none;
+    outline: none;
+    font-weight: 800;
+}
+
+.HeaderSearchText{
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 8px;
+}
+
+.Icon{
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.SelectDate{
+    color: white;
+    background: #0096FF;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.HeaderButton{
+    color: white;
+    margin-left: 20px;
+    height: 80px;
+    width: 160px;
+    background: #0096FF;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.2s;
+}

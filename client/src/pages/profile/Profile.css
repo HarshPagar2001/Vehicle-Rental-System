@@ -1,0 +1,139 @@
+.UserProfile{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.UserProfileMainContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.UserProfileContainer{
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.UserProfileContainer h2{
+    background: #0096FF;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.UserProfileHeader{
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.UserPhoto{
+    color: white;
+    width: 244px;
+    height: 244px;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.UserPhoto img{
+    width: 240px;
+    height: 240px;
+}
+
+.UserPhotoUpload{
+    position: absolute;
+    margin-top: 20px;
+    background: #0096FF;
+    color: white;
+    width: 244px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.UserInformation{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.UserBox{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserBox label{
+    margin-bottom: 10px;
+}
+
+.UserBox input{
+    height: 60px;
+    width: 280px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+.UserBox input:focus{
+    border-color: #0096FF;
+}
+
+.UpdateMessage{
+    margin-bottom: 20px;
+    width: fit-content;
+    background: green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.ErrorMessage{
+    margin-bottom: 20px;
+    width: fit-content;
+    background: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.PasswordLink{
+    margin-bottom: 20px;
+}
+
+.PasswordLink a{
+    color: #0096FF;
+    text-decoration: none;
+}
+
+.UpdateButton{
+    background: #0096FF;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

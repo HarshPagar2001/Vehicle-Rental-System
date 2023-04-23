@@ -1,0 +1,389 @@
+.DarkMode .Sun{
+    border: 2px solid white;
+}
+
+.DarkMode .Nav{
+    background: black;
+}
+
+.DarkMode .SignUpButton a{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.DarkMode .Profile{
+    background: black;
+}
+
+.DarkMode .ProfileContainer{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminLogin{
+    border: 2px solid white;
+}
+
+.DarkMode .Logout{
+    border: 2px solid white;
+}
+
+.DarkMode .Footer{
+    background: black;
+}
+
+.DarkMode .Services{
+    background: #181818;
+}
+
+.DarkMode .ServicesItem{
+    color: white;
+    background: black;
+    border: 2px solid white;
+}
+
+.DarkMode .ServicesItem h2{
+    border: 2px solid white;
+}
+
+.DarkMode .HeaderSearchInput{
+    color: white;
+    background: black;
+}
+
+.DarkMode .HeaderSearchItemContainer{
+    color: white;
+    background: black;
+}
+
+.DarkMode .Icon{
+    color: white;
+}
+
+.DarkMode .SelectDate{
+border: 2px solid white;
+}
+
+.DarkMode .UserProfile{
+    background: #181818;
+}
+
+.DarkMode .UserProfileContainer{
+    color: white;
+    background: black;
+}
+
+.DarkMode .UserPhoto{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .Password{
+    background: #181818;
+}
+
+.DarkMode .PasswordContainer{
+    color: white;
+    background: black;
+}
+
+.DarkMode .PasswordBox input{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .List{
+    background: #181818;
+}
+
+.DarkMode .ListSearch{
+    color: white;
+    background: black;
+}
+
+.DarkMode .ListSearchItem input{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .ListSearchItem span{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .ListSearchOption input{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .SearchButton{
+    border: 2px solid white;
+}
+
+.DarkMode .TabSection{
+    color: white;
+    background: black;
+}
+
+.DarkMode .Tab.active{
+    border: 2px solid white;
+}
+
+.DarkMode .SearchItem{
+    color: white;
+    background: black;
+}
+
+.DarkMode .SearchItem img{
+    border: 2px solid white;
+}
+
+.DarkMode .SearchItemLoadContainer{
+    background: black;
+}
+
+.DarkMode .SearchItemButton{
+    border: 2px solid white;
+}
+
+.DarkMode .Vehicle{
+    background: #181818;
+}
+
+.DarkMode .VehicleInformation{
+    color: white;
+    background: black;
+}
+
+.DarkMode .VehicleDetails img{
+    border: 2px solid white;
+}
+
+.DarkMode .VehiclePriceDetail{
+    border: 2px solid white;
+}
+
+.DarkMode .VehicleButton{
+    border: 2px solid white;
+}
+
+.DarkMode .VehicleLoad{
+    background: black;
+}
+
+.DarkMode .VehicleLoadPayment{
+    border: 2px solid white;
+}
+
+.DarkMode .Payment{
+    background: #181818;
+}
+
+.DarkMode .PaymentDetail{
+    color: white;
+    background: black;
+}
+
+.DarkMode .UserBox input{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .PaymentButton{
+    border: 2px solid white;
+}
+
+.DarkMode .Redirect{
+    background: #181818;
+}
+
+.DarkMode .RedirectDetail{
+    color: white;
+    background: black;
+}
+
+.DarkMode .RedirectDetail input{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .RedirectButton{
+    border: 2px solid white;
+}
+
+.DarkMode .DashBoardUserItem{
+    background: black;
+}
+
+.DarkMode .AdminSignUpButton a{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminProfile{
+    border: 2px solid white;
+}
+
+.DarkMode .MenuContainer{
+    background: black;
+}
+
+.DarkMode .MenuHeader{
+    border: 2px solid white;
+}
+
+.DarkMode .MenuTitle span{
+    border: 2px solid white;
+}
+
+.DarkMode .GetOrderTable{
+    background: #181818;
+}
+
+.DarkMode .GetOrderSearch{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.DarkMode .OrderSearch{
+    border: 2px solid white;
+}
+
+.DarkMode tr{
+    border: 2px solid white;
+}
+
+.DarkMode td img{
+    border: 2px solid white;
+}
+
+.DarkMode table td{
+    background: black;
+    color: white;
+}
+
+.DarkMode .OrderEditButton{
+    border: 2px solid white;
+}
+
+.DarkMode .OrderDeleteButton{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminOrderContainer{
+    background: #181818;
+}
+
+.DarkMode .AdminOrderData{
+    background: black;
+    color: white;
+}
+
+.DarkMode .AdminOrderData h2{
+    border: 2px solid white;
+}
+
+.DarkMode .GetUserTable{
+    background: #181818;
+}
+
+.DarkMode .GetUserSearch{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.DarkMode .UserSearch{
+    border: 2px solid white;
+}
+
+.DarkMode .CreateUser{
+    border: 2px solid white;
+}
+
+.DarkMode .DeleteButton{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminUserContainer{
+    background: #181818;
+}
+
+.DarkMode .UserEditContainer{
+    background: black;
+    color: white;
+}
+
+.DarkMode .AdminUserPhoto{
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .UserUpload{
+    border: 2px solid white;
+}
+
+.DarkMode .UserEdit input{
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .UserEditButton{
+    border: 2px solid white;
+}
+
+.DarkMode .GetVehicleTable{
+    background: #181818;
+}
+
+.DarkMode .GetVehicleSearch{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.DarkMode .VehicleSearch{
+    border: 2px solid white;
+}
+
+.DarkMode .CreateVehicle{
+    border: 2px solid white;
+}
+
+.DarkMode .EditButton{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminVehicleContainer{
+    background: #181818;
+}
+
+.DarkMode .VehicleEditContainer{
+    background: black;
+    color: white;
+}
+
+.DarkMode .AdminVehiclePhoto{
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .VehicleUpload{
+    border: 2px solid white;
+}
+
+.DarkMode .VehicleEdit input{
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .VehicleEditButton{
+    border: 2px solid white;
+}

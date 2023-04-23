@@ -1,0 +1,114 @@
+.Vehicle{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.VehicleMainContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.VehicleContainer{
+    width: fit-content;
+}
+
+.VehicleInformation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    padding: 80px;
+    gap: 140px;
+}
+
+.VehicleDetails{
+    width: 800px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.VehicleDetails img{
+    height: 280px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.VehicleDetailsItems{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.VehicleDetailsItems span{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.VehiclePriceDetail{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.VehiclePriceDetail h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.PriceDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.PriceDetails span{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.PriceDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.AmountDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.VehicleButtonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.VehicleButton{
+    color: white;
+    background: #0096FF;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 20px;
+    cursor: pointer;
+}

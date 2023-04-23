@@ -1,0 +1,56 @@
+.SearchItemLoadMain{
+    margin: 20px 20px 40px 20px;
+}
+
+.SearchItemLoadContainer{
+    width: 995px;
+    display: flex;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
+    gap: 20px;
+}
+
+.SearchItemLoadContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SearchItemLoadImg{
+    margin: 20px;
+    background: #d9d9d9;
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.SearchItemLoadTitle{
+    margin: 10px;
+    background: #d9d9d9;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.SearchItemLoadDescription{
+    margin: 10px;
+    background: #d9d9d9;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.SearchItemLoadCity{
+    margin: 10px;
+    background: #d9d9d9;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.SearchItemLoadPrice{
+    margin: 10px;
+    background: #d9d9d9;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
