@@ -2,12 +2,7 @@ import { createContext, useReducer } from "react";
 
 const InitialState = {
     city: undefined,
-    dates: [
-        {
-            startDate: new Date(),
-            endDate: new Date(),
-        }
-    ]
+    dates: []
 }
 
 export const SearchContext = createContext(InitialState)
