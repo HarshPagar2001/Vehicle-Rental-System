@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEllipsisVertical, faGear, faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
 import "./Navbar.css"
 import { DarkModeContext } from "../../context/DarkModeContext"
+import Image from "./Images/Logo.png"
 
 const Navbar = () => {
 
@@ -46,7 +47,7 @@ const Navbar = () => {
 <div className="Nav">
     <div className="NavContainer">
         <div className="NavItem">
-            <h4>VehicleRental</h4>
+            <img src={Image} alt="" />
             <div className="NavLinks">
                 <ul className="NavMenu">
                     <li><a href="/">Home</a></li>

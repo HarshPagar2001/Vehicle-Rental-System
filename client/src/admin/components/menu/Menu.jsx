@@ -2,6 +2,7 @@ import { useContext } from "react"
 import "./Menu.css"
 import { AuthContext } from "../../../context/AuthContext"
 import { useNavigate } from "react-router-dom"
+import Image from "./Images/Logo.png"
 
 const Menu = () => {
 
@@ -22,13 +23,11 @@ const Menu = () => {
         }
     }
 
-
     return (
 <div className="Menu">
     <div className="MenuContainer">
         <div className="MenuHeader">
-            <span className="MenuHeaderLogo"></span>
-            <span className="MenuHeaderText">Admin Dashboard</span>
+            <img src={Image} alt="" />
         </div>
         <div className="MenuLink">
             <div className="MenuList">

@@ -18,7 +18,7 @@ const GetOrderItem = ({item}) => {
                 <td>{item.username}</td>
                 <td>
                     <div className="GetOrderButton">
-                    <div className="OrderEditButton">
+                    <div className="OrderViewButton">
                     <a href={`/admin/dashboard/orders/${item._id}`}>
                     View</a></div>
                     <div className="OrderDeleteButton" onClick={Delete}>Delete

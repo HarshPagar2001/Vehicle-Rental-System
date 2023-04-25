@@ -20,6 +20,26 @@
     border: 2px solid white;
 }
 
+.DarkMode .UserProfileContainer h2{
+    border: 2px solid white;
+}
+
+.DarkMode .UserPhotoUpload{
+    border: 2px solid white;
+}
+
+.DarkMode .UpdateButton{
+    border: 2px solid white;
+}
+
+.DarkMode .PasswordContainer h2{
+    border: 2px solid white;
+}
+
+.DarkMode .PasswordUpdateButton{
+    border: 2px solid white;
+}
+
 .DarkMode .AdminLogin{
     border: 2px solid white;
 }
@@ -39,6 +59,9 @@
 .DarkMode .ServicesItem{
     color: white;
     background: black;
+}
+
+.DarkMode .ServicesItemImage{
     border: 2px solid white;
 }
 
@@ -218,8 +241,23 @@ border: 2px solid white;
     border: 2px solid white;
 }
 
+.DarkMode .DashboardItems{
+    background: black;
+    color: white;
+}
+
+.DarkMode .DashboardItem{
+    color: white;
+    background: black;
+    border: 2px solid white;
+}
+
 .DarkMode .DashBoardUserItem{
     background: black;
+}
+
+.DarkMode .DashboardContainer{
+    background: #181818;
 }
 
 .DarkMode .AdminSignUpButton a{
@@ -336,6 +374,19 @@ border: 2px solid white;
 }
 
 .DarkMode .UserEditButton{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminUserData{
+    background: black;
+    color: white;
+}
+
+.DarkMode .AdminUserData h2{
+    border: 2px solid white;
+}
+
+.DarkMode .AdminUserDataImage img{
     border: 2px solid white;
 }
 

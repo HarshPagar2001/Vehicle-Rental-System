@@ -34,9 +34,9 @@
     align-items: center;
 }
 
-.NavItem h4{
-    color: white;
-    font-size: 2rem;
+.NavItem img{
+    width: 180px;
+    border-radius: 5px;
 }
 
 .NavMenu{

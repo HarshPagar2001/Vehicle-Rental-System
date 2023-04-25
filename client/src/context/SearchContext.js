@@ -4,8 +4,8 @@ const InitialState = {
     city: undefined,
     dates: [
         {
-            startDate: new Date,
-            endDate: new Date,
+            startDate: new Date(),
+            endDate: new Date(),
         }
     ]
 }

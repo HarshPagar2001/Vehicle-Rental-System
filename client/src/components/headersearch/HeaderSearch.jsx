@@ -33,6 +33,18 @@ const HeaderSearch = () => {
     const Navigate = useNavigate()
 
     const HandleSearch = () => {
+        const StartDate = format(dates[0].startDate, "dd/MM/yyyy")
+        const EndDate = format(dates[0].endDate, "dd/MM/yyyy")
+        
+        const DateStart = format(dates[0].startDate, "dd")
+        const DateEnd = format(dates[0].endDate, "dd")
+
+        localStorage.setItem("StartDate", StartDate)
+        localStorage.setItem("EndDate", EndDate)
+
+        localStorage.setItem("DateStart", DateStart)
+        localStorage.setItem("DateEnd", DateEnd)
+
         dispatch({type:"NewSearch", payload:{destination, dates}})
         Navigate("/vehicles", {state:{destination, dates}})
     }

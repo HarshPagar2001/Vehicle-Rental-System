@@ -104,6 +104,21 @@ table, th, td{
     gap: 60px;
 }
 
+.UserViewButton{
+    background: #0096FF;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.UserViewButton a{
+    color: white;
+    text-decoration: none;
+}
+
 .DeleteButton{
     background: red;
     color: white;

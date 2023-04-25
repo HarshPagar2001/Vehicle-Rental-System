@@ -14,7 +14,10 @@ const Dashboard = () => {
 <div className="DashboardContainer">
 <DashboardUser/>
 <div className="DashboardItems">
-        <span>Welcome {user.username}</span>
+    <div className="DashboardItem">
+    <span>Welcome {user.username}</span>
+    <span>Admin Dashboard</span>
+    </div>
 </div>
 </div>
 </div>

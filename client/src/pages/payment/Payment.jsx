@@ -6,7 +6,6 @@ import axios from "axios"
 import { AuthContext } from "../../context/AuthContext"
 import { useLocation, useNavigate } from "react-router-dom";
 import useFetch from "../../hooks/useFetch"
-import { SearchContext } from "../../context/SearchContext"
 
 const Payment = () => {
 
@@ -16,15 +15,10 @@ const Payment = () => {
 
     const { data } = useFetch(`/vehicles/vehicle/${id}`)
 
-    console.log(PaymentID)
-    console.log(id)
-
     const Address = document.getElementById("address")
     const Time = document.getElementById("time")
 
     const navigate = useNavigate()
-
-    const {dates} = useContext(SearchContext)
 
     const { user } = useContext(AuthContext)
 
@@ -32,11 +26,18 @@ const Payment = () => {
     
     const [ error, setError] = useState("")
 
+    const StartDate = localStorage.getItem("StartDate")
+    const EndDate = localStorage.getItem("EndDate")
+
+    const DateStart = StartDate
+    const DateEnd = EndDate
+
     const [ credentials, setCredentials] = useState({
         username:undefined,
         vehicle:undefined,
         city:undefined,
-        price:undefined,
+        start:undefined,
+        end:undefined,
         time:undefined,
         address:undefined,
     })
@@ -46,7 +47,8 @@ const Payment = () => {
             username: user.username,
             vehicle: data.name,
             city: data.city,
-            price: data.price,
+            start: DateStart,
+            end: DateEnd,
             [e.target.id]: e.target.value}))
         }
 

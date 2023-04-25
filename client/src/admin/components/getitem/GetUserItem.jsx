@@ -26,6 +26,8 @@ const GetUserItem = ({item}) => {
         <td>{item.email}</td>
         <td>
             <div className="GetUserButton">
+            <div className="UserViewButton">
+            <a href={`/admin/dashboard/user/${item._id}`}>View</a></div>
             <div className="DeleteButton" onClick={Delete}>Delete</div>
             </div>
         </td>

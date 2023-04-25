@@ -4,7 +4,6 @@ import Footer from "../../components/footer/Footer";
 import "./Vehicle.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
-import { SearchContext } from "../../context/SearchContext";
 import { AuthContext } from "../../context/AuthContext";
 import axios from "axios";
 import VehicleLoad from "../../load/vehicleload/VehicleLoad";
@@ -16,23 +15,17 @@ const Vehicle = () => {
 
     const { data, loading } = useFetch(`/vehicles/vehicle/${id}`)
 
-    const { dates } = useContext(SearchContext)
-
-    let { StartDate, EndDate } = dates[0]
-
     const { user } = useContext(AuthContext)
 
     const navigate = useNavigate()
 
-    const MiliSecondPerDay = 1000 * 60 * 60 * 24
+    const DateStart = localStorage.getItem("DateStart")
+    const DateEnd = localStorage.getItem("DateEnd")
 
-    function DayDifference(DateStart, DateEnd) {
-        const TimeDifference = Math.abs(DateEnd.getTime() - DateStart.getTime()) + 1
-        const DayDifference = Math.ceil(TimeDifference / MiliSecondPerDay)
-        return DayDifference
-    }
+    const StartDate = DateStart
+    const EndDate = DateEnd
 
-    const Period = DayDifference(dates[0].startDate, dates[0].endDate)
+    const Period = (EndDate - StartDate) + 1
 
     const GST = data.price * Period * 12 / 100
     const TotalAmount = data.price * Period + GST
@@ -40,7 +33,8 @@ const Vehicle = () => {
     const handleClick = async () => {
         if (user) {
             localStorage.setItem("Path", id)
-            const order = await axios.post("/payment/checkout", { amount: TotalAmount })
+            const order = await axios.post("/payment/checkout", 
+            {amount: TotalAmount})
 
             const options = {
                 key: "rzp_test_VvGXZGTbnO5RYg", // Enter the Key ID generated from the Dashboard

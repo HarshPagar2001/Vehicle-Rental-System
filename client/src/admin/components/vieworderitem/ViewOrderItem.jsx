@@ -25,7 +25,8 @@ const ViewOrderItem = () => {
             <span>Username: {data.username}</span>
             <span>Vehicle: {data.vehicle}</span>
             <span>City: {data.city}</span>
-            <span>Price: {data.price}</span>
+            <span>Start: {data.start}</span>
+            <span>End: {data.end}</span>
             <span>Address: {data.address}</span>
             <span>Time: {data.time}</span>
         </div>

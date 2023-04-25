@@ -1,11 +1,11 @@
-.AdminOrder{
+.AdminUser{
     height: 100vh;
     width: 100%;
     display: flex;
     font-family: sans-serif;
 }
 
-.AdminOrderContainer{
+.AdminUserContainer{
     position: fixed;
     height: 100vh;
     width: 88vw;
@@ -17,7 +17,7 @@
     padding: 20px;
 }
 
-.AdminOrderDataContainer{
+.AdminUserDataContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,7 @@
     padding: 20px;
 }
 
-.AdminOrderData{
+.AdminUserData{
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -36,12 +36,27 @@
     gap: 20px;
 }
 
-.AdminOrderData h2{
-    margin-bottom: 40px;
+.AdminUserData h2{
+    margin-bottom: 20px;
     background: #0096FF;
     color: white;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
     padding: 20px;
+}
+
+.AdminUserDataImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AdminUserDataImage img{
+    margin-bottom: 20px;
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
 }

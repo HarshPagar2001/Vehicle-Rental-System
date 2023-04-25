@@ -40,3 +40,8 @@
     padding: 10px;
     cursor: pointer;
 }
+
+.SearchItemButton a{
+    color: white;
+    text-decoration: none;
+}
