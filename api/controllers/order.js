@@ -42,3 +42,12 @@ export const GetAllOrders = async (req, res, next) => {
         next(err)
     }
 }
+
+export const OrderDocument = async (req, res, next) => {
+    try {
+        const OrderList = await Order.countDocuments()
+        res.status(200).json(OrderList)
+    } catch (err) {
+        next(err)
+    }
+}
