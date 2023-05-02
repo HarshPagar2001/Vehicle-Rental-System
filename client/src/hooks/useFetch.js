@@ -3,6 +3,11 @@ import axios from "axios"
 
 const useFetch =(url) => {
     const [data, setData] =  useState([])
+
+    const [vehicles, setVehicle] =  useState([])
+    const [users, setUser] =  useState([])
+    const [orders, setOrder] =  useState([])
+
     const [loading, setLoading] =  useState([false])
     const [error, setError] =  useState([false])
 
@@ -12,6 +17,9 @@ const useFetch =(url) => {
             try {
                 const res = await axios.get(url)
                 setData(res.data)
+                setVehicle(res.data)
+                setUser(res.data)
+                setOrder(res.data)
             } catch (err) {
                 setError(err)
             } setLoading(false)
@@ -24,11 +32,14 @@ const refetch = async () => {
     try {
         const res = await axios.get(url)
         setData(res.data)
+        setVehicle(res.data)
+        setUser(res.data)
+        setOrder(res.data)
     } catch (err) {
         setError(err)
     } setLoading(false)
 }
-return {data, loading, error, refetch}
+return {data, vehicles, users, orders, loading, error, refetch}
 }
 
 export default useFetch

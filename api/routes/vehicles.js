@@ -4,7 +4,7 @@ import { createVehicle,
         deleteVehicle,
         getVehicle,
         getallVehicle,
-        ByCity } from "../controllers/vehicle.js";
+        VehicleDocument } from "../controllers/vehicle.js";
 
 const router = express.Router()
 
@@ -23,6 +23,6 @@ router.get("/vehicle/:id", getVehicle)
 //GetAll
 router.get("/", getallVehicle)
 
-router.get("/ByCity", ByCity)
+router.get("/document", VehicleDocument)
 
 export default router

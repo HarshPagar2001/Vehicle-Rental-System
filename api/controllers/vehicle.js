@@ -53,13 +53,10 @@ export const getallVehicle = async (req, res, next) => {
     }
 }
 
-export const ByCity = async (req, res, next) => {
-    const cities = req.query.cities.split(",")
+export const VehicleDocument = async (req, res, next) => {
     try {
-        const list = await Promise.all(cities.map(city => {
-            return Vehicle .countDocuments({city:city})
-        }))
-        res.status(200).json(list)
+        const VehicleList = await Vehicle.countDocuments()
+        res.status(200).json(VehicleList)
     } catch (err) {
         next(err)
     }

@@ -63,11 +63,6 @@ app.use((err, req, res, next) => {
     })
 })
 
-app.get("/api/getkey", (req, res) => res.status(200).json({
-    key: process.env.RazorPay_API_Key
-}))
-
-
 app.listen(8800, () =>{
     //call the function
     connect()

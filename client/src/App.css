@@ -69,6 +69,10 @@
     border: 2px solid white;
 }
 
+.DarkMode .ServicesItemContainer h1{
+    border: 2px solid white;
+}
+
 .DarkMode .HeaderSearchInput{
     color: white;
     background: black;
@@ -91,9 +95,34 @@ border: 2px solid white;
     background: #181818;
 }
 
+.DarkMode .Contact{
+    background: #181818;
+}
+
+.DarkMode .ContactItemContainer{
+    color: white;
+    background: black;
+}
+
 .DarkMode .UserProfileContainer{
     color: white;
     background: black;
+}
+
+.DarkMode .ContactInput{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode textarea{
+    color: white;
+    background: #181818;
+    border: 2px solid white;
+}
+
+.DarkMode .ContactButton{
+    border: 2px solid white;
 }
 
 .DarkMode .UserPhoto{

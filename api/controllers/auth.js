@@ -191,3 +191,12 @@ export const GetAllUsers = async (req, res, next) => {
         next(err)
     }
 }
+
+export const UserDocument = async (req, res, next) => {
+    try {
+        const UserList = await User.countDocuments()
+        res.status(200).json(UserList)
+    } catch (err) {
+        next(err)
+    }
+}
