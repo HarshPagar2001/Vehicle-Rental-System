@@ -30,11 +30,15 @@ const GetUser = () => {
     <div className="GetUserTable">
     <DashboardUser/>
         <div className="GetUserTableContainer">
+        <div className="AlignContent">
         <input type="text" placeholder="Username" className="GetUserSearch"
         onChange={e => setUsername(e.target.value)}/> 
         <div className="UserSearch" 
         onClick={handleSearch}>Search</div>
+        </div>
+        <div className="AlignContent">
         <div className="CreateUser" onClick={handleCreate}>Create User</div>
+        </div>
         </div>  
         <div className="UserTable">
         <table>

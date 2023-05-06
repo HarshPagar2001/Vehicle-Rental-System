@@ -31,11 +31,16 @@ const GetVehicle = () => {
     <div className="GetVehicleTable">
     <DashboardUser/>
         <div className="GetVehicleTableContainer">
+        <div className="AlignContent">
         <input type="text" placeholder="Location" className="GetVehicleSearch"
         onChange={e => setDestination(e.target.value)}/>
         <div className="VehicleSearch" 
         onClick={handleSearch}>Search</div>
-        <div className="CreateVehicle" onClick={handleCreate}>Create Vehicle</div>
+        </div>
+        <div className="AlignContent">
+        <div className="CreateVehicle" 
+        onClick={handleCreate}>Create Vehicle</div>
+        </div>
         </div>
         <div className="VehicleTable">
         <table>

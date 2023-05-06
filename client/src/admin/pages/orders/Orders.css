@@ -26,7 +26,7 @@
 }
 
 .GetOrderSearch{
-    width: 28%;
+    width: 480px;
     display: flex;
     align-items: center;
     justify-content: space-around;
