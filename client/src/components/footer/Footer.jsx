@@ -14,7 +14,6 @@ const Footer = () => {
             <h4>Permalinks</h4>
             <ul className="Permalinks">
                 <li>Home</li>
-                <li>About</li>
                 <li>Contact</li>
             </ul>
         </div>

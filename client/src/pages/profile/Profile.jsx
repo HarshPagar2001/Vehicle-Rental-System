@@ -19,6 +19,7 @@ const Profile = () => {
         username:undefined,
         photo:undefined,
         email:undefined,
+        phone:undefined
     })
 
     const [ username, setUsername] = useState({
@@ -30,7 +31,7 @@ const Profile = () => {
     })
 
     const [ phone, setPhone] = useState({
-        email:undefined,
+        phone:undefined,
     })
 
     const [ error, setError] = useState("")
@@ -39,13 +40,14 @@ const Profile = () => {
     const handleChange = (e) => {
         setCredentials(prev => ({...prev, _id: user._id, photo: image, admin: user.admin, [e.target.id]: e.target.value}))
 
-        setUsername(prev => ({...prev, _id: user._id, photo: image, admin: user.admin, email: user.email, phone: user.phone, 
+        setUsername(prev => ({...prev, _id: user._id, photo: user.photo, admin: user.admin, email: user.email, phone: user.phone, 
         username: e.target.value}))
 
-        setEmail(prev => ({...prev, _id: user._id, photo: image, admin: user.admin, username: user.username, phone: user.phone, 
+        setEmail(prev => ({...prev, _id: user._id, photo: user.photo, admin: user.admin, username: user.username, phone: user.phone, 
         email: e.target.value}))
 
-        setPhone(prev => ({...prev, _id: user._id, photo: image, admin: user.admin, username: user.username, email: user.email, phone: e.target.value}))
+        setPhone(prev => ({...prev, _id: user._id, photo: user.photo, admin: user.admin, username: user.username, email: user.email, 
+        phone: e.target.value}))
     }
 
     const handleUpdate = async e => {

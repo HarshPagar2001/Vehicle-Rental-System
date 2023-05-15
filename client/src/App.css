@@ -52,6 +52,10 @@
     background: black;
 }
 
+.DarkMode .Footer p{
+    background: black;
+}
+
 .DarkMode .Services{
     background: #181818;
 }
